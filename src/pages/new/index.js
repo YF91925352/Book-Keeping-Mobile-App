@@ -20,13 +20,14 @@ const New = () => {
   const saveBill = () => {
     const data = {
       type: billType,
-      money: billType === "pay" ? -money : money,
+      money: billType === "pay" ? -money : +money,
       date: chosenDate,
       useFor: useFor,
     };
-
+    console.log(data);
     dispatch(addBillList(data));
   };
+
   const dateConfirm = (value) => {
     setChosenDate(value);
     setDateVisible(false);
@@ -75,7 +76,7 @@ const New = () => {
             <div className="kaInput">
               <Input
                 className="input"
-                placeholder="0.00"
+                placeholder="0"
                 type="number"
                 value={money}
                 onChange={(value) => setMoney(value)}

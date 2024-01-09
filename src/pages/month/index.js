@@ -43,7 +43,7 @@ const Month = () => {
       setCurrentMonthList([]);
     }
   };
-  console.log(currentMonthList);
+
   useEffect(() => {
     const nowDate = dayjs(new Date()).format("YYYY-MM");
     if (monthGroup[nowDate]) {

@@ -242,6 +242,90 @@
       "money": 0,
       "useFor": "",
       "id": 42
+    },
+    {
+      "type": "pay",
+      "money": -100,
+      "date": "2023-02-04T23:00:00.000Z",
+      "useFor": "food",
+      "id": 43
+    },
+    {
+      "type": "pay",
+      "money": -50,
+      "date": "2023-08-08T22:00:00.000Z",
+      "useFor": "drinks",
+      "id": 44
+    },
+    {
+      "type": "income",
+      "money": "500",
+      "date": "2023-08-08T22:00:00.000Z",
+      "useFor": "overtimepay",
+      "id": 45
+    },
+    {
+      "type": "pay",
+      "money": -50,
+      "date": "2023-09-08T22:00:00.000Z",
+      "useFor": "food",
+      "id": 46
+    },
+    {
+      "type": "income",
+      "money": "5000",
+      "date": "2023-09-08T22:00:00.000Z",
+      "useFor": "salary",
+      "id": 47
+    },
+    {
+      "type": "income",
+      "money": "1000",
+      "date": "2022-01-07T23:00:00.000Z",
+      "useFor": "salary",
+      "id": 48
+    },
+    {
+      "type": "income",
+      "money": "2000",
+      "date": "2021-01-06T23:00:00.000Z",
+      "useFor": "overtimepay",
+      "id": 49
+    },
+    {
+      "type": "income",
+      "money": "10000",
+      "date": "2021-01-08T23:00:00.000Z",
+      "useFor": "financial",
+      "id": 50
+    },
+    {
+      "type": "pay",
+      "money": -50,
+      "date": "2014-01-08T23:00:00.000Z",
+      "useFor": "food",
+      "id": 51
+    },
+    {
+      "type": "income",
+      "money": "50",
+      "date": "2014-01-08T23:00:00.000Z",
+      "useFor": "bonus",
+      "id": 52
+    },
+    {
+      "type": "income",
+      "money": 500,
+      "date": "2014-01-08T23:00:00.000Z",
+      "useFor": "cashgift",
+      "id": 53
+    },
+    {
+      "type": "income",
+      "money": 40,
+      "date": "2017-01-08T23:00:00.000Z",
+      "useFor": "cashgift",
+      "id": 54
     }
   ]
 }

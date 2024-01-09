@@ -24,6 +24,7 @@ const getBillList = () => {
 const addBillList = (data) => {
   return async (dispatch) => {
     const res = await axios.post("http://localhost:8888/ka", data);
+
     dispatch(addBill(res.data));
   };
 };
