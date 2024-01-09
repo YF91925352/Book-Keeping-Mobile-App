@@ -236,6 +236,12 @@
       "money": "200",
       "useFor": "bonus",
       "id": 41
+    },
+    {
+      "type": "pay",
+      "money": 0,
+      "useFor": "",
+      "id": 42
     }
   ]
 }

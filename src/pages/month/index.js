@@ -39,9 +39,11 @@ const Month = () => {
     setDataVisible(false);
     if (monthGroup[formatDate]) {
       setCurrentMonthList(monthGroup[formatDate]);
+    } else {
+      setCurrentMonthList([]);
     }
   };
-
+  console.log(currentMonthList);
   useEffect(() => {
     const nowDate = dayjs(new Date()).format("YYYY-MM");
     if (monthGroup[nowDate]) {
