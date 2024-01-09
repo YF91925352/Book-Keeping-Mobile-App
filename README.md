@@ -1,6 +1,6 @@
 # Bill Tracker App
 
-A simple Bill Tracker application built using Redux Toolkit, React-Redux, React Router DOM, Day.js, Classnames, Ant Design Mobile (antd-mobile), and Axios.
+A Book Keeping application built using Redux Toolkit, React-Redux, React Router DOM, Day.js, Classnames, Ant Design Mobile (antd-mobile), and Axios.
 
 ## Features
 
