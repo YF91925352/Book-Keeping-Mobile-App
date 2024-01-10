@@ -2,6 +2,9 @@
 
 A Book Keeping application built using Redux Toolkit, React-Redux, React Router DOM, Day.js, Classnames, Ant Design Mobile (antd-mobile), and Axios.
 
+# OverView
+![ScreenRecording2024-01-10at15 28 07-ezgif com-video-to-gif-converter](https://github.com/YF91925352/Book-Keeping-Mobile-App/assets/113684176/1079b40b-003e-46f9-aa68-18ef33df3e46)
+
 ## Features
 
 - **Track Bills:** Record and manage your bills.
